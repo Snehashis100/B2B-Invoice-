@@ -1,0 +1,19 @@
+1)business_code company code of the account 
+2)cust_number customer number given to all the customers of the account
+3)name_customer name of the customer
+4)clear_date The date  on which the cutomer clears an Invoice,or in simple terms they make the full payment
+5)business_year year of buisness
+6)doc_id it is also an unique identifier of an invoice is a primary key for account_doc_header table
+7)posting_date
+8)document_create_date The date on which the invoice document was created
+9)document_create_date_norm the normalised date of the invoice document
+10)due_in_date The date on which the customer is expected to clear an Invoice
+11)invoice_currency The currency of the invoice amount in the document for the invoice
+12)document type It represent the type of the  document for eq-D1 represents Invoice
+13)posting id Key indicator to identify whether an AR item is INvoice,deduction,credit memo based on it's value applicable for SAP ERP
+14)area_buisness Buisness area in sap is defined as an organizational area without the financial accounting module
+15)total_open_amount the amount that is yet to be paid for the INvoice
+16)baseline_create_date The date on which the invoice eas created
+17)cust_payment_terms Buisness terms and agreements between the customers and the accounts on discounts and days of payment
+18)invoice_id Unique number assigned when a seller creates an Invoice
+19)isOpen Indicator of whether an Invoice is open or closed .1 means the invoice is open
